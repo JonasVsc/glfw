@@ -25,6 +25,7 @@ project "GLFW"
 		"src/platform.c",
 		"src/vulkan.c",
 		"src/window.c",
+		"src/*.c",
 	}
 
 	filter "system:linux"
